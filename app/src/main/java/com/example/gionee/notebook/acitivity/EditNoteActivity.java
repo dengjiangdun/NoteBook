@@ -343,7 +343,6 @@ public class EditNoteActivity extends GnBaseActivity {
         mIvNoteType = (ImageView) findViewById(R.id.iv_note_type);
         mTvUpdateDate = (TextView) findViewById(R.id.tv_note_update_date);
         mIvBack = (ImageView) findViewById(R.id.iv_back);
-        mIvBack = (ImageView) findViewById(R.id.iv_back);
         mIvBack.setVisibility(View.VISIBLE);
         mPreview.setVisibility(View.INVISIBLE);
     }

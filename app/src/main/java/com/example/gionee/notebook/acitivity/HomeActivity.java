@@ -69,6 +69,7 @@ public class HomeActivity extends GnBaseActivity implements NoteAdapter.LongClic
         mIvAddNotes = (ImageView) findViewById(R.id.iv_add_note);
         mIvMode = (ImageView) findViewById(R.id.iv_notes_mode);
         mTvTitle = (TextView) findViewById(R.id.tv_title_note_book);
+        findViewById(R.id.iv_back).setVisibility(View.INVISIBLE);
         if (StyleUtil.getTheme(this) == R.style.style_night) {
             mIvMode.setImageResource(R.drawable.day_mode);
         } else {
