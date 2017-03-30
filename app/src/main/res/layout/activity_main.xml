@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gionee.notebook.acitivity.MainActivity">
+
+    <include layout="@layout/top_layout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/user_name"
+        android:textSize="@dimen/text_size_20"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="@dimen/text_size_20"
+        android:singleLine="true"
+        android:hint="@string/et_user_name"
+        android:id="@+id/et_username"
+        android:layout_height="@dimen/text_view_height" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:textSize="@dimen/text_size_20"
+        android:text="@string/tv_password" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:hint="@string/et_password"
+        android:id="@+id/et_password"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:paddingRight="10dp"
+        android:id="@+id/ll_login_layout"
+        android:paddingLeft="10dp"
+        android:layout_height="@dimen/text_view_height">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_login"
+            android:id="@+id/btn_login"/>
+    </LinearLayout>
+
+
+</LinearLayout>

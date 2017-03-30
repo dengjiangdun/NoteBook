@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="user_name">Please input username</string>
+    <string name="et_user_name">username</string>
+    <string name="tv_password">Please input password</string>
+    <string name="et_password">password</string>
+    <string name="btn_login">Login</string>
+    <string name="login_successfully">Login successfully!</string>
+    <string name="user_name_password_empty">username or password is empty!</string>
+    <string name="user_name_password_error">username or password is error!</string>
+    <string name="delete_all_note">Delete all</string>
+    <string name="add_note">Add</string>
+    <string name="choose_type">Click choose type</string>
+    <string name="save_note">Save</string>
+    <string name="input_can_not_empty">content and type can not empty</string>
+    <string name="sure_to_delete">Sure to delete all notes ?</string>
+    <string name="is_yes">YES</string>
+    <string name="is_no">NO</string>
+    <string name="dialog_title_please_choose">Please choose</string>
+    <string name="is_save_note">Save?</string>
+    <string name="link_content">input content</string>
+    <string name="link_address">input link</string>
+    <string name="inster_content">Insert text here...</string>
+    <string name="default_item_num">0</string>
+    <string name="widget_title">Notes calculate</string>
+    <string name="note_type_meeting">Meeting</string>
+    <string name="note_type_remind">Remind</string>
+    <string name="note_type_memory_day">Memory Day</string>
+    <string name="note_type_schedule">Schedule</string>
+
+</resources>

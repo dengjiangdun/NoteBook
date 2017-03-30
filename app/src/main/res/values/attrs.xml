@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titlebarcolor" format="color"/>
+    <attr name="mainbackground" format="color"/>
+    <attr name="contentbackground" format="color"/>
+</resources>

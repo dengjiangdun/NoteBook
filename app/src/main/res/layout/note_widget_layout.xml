@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_widget_layout"
+    android:background="@color/background_white"
+    android:paddingLeft="@dimen/padding_left_width">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/widget_title"
+        android:textColor="@color/text_balck"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/text_balck"
+            android:text="@string/note_type_meeting"
+            android:id="@+id/iv_note_type_meeting" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_balck"
+            android:layout_marginLeft="@dimen/padding_left_width"
+            android:gravity="center|left"
+            android:text="@string/default_item_num"
+            android:id="@+id/tv_widget_meeting"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_balck"
+            android:gravity="center"
+            android:text="@string/note_type_memory_day"
+            android:id="@+id/tv_note_type_memory_day"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@color/text_balck"
+            android:id="@+id/tv_widget_memory_day"
+            android:layout_marginLeft="@dimen/padding_left_width"
+            android:text="@string/default_item_num"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_balck"
+            android:text="@string/note_type_remind"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/default_item_num"
+            android:gravity="center|left"
+            android:textColor="@color/text_balck"
+            android:id="@+id/tv_widget_remind"
+            android:layout_marginLeft="@dimen/padding_left_width"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/iv_note_type_schedule"
+            android:textColor="@color/text_balck"
+            android:text="@string/note_type_schedule"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/default_item_num"
+            android:gravity="center|left"
+            android:textColor="@color/text_balck"
+            android:id="@+id/tv_widget_schedule"
+            android:layout_marginLeft="@dimen/padding_left_width"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+
+</LinearLayout>

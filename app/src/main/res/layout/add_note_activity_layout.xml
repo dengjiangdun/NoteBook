@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:hint="@string/choose_type"
+            android:id="@+id/tv_type"
+            android:textSize="@dimen/text_size_20"
+            android:gravity="center"/>
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="400dp"
+                   android:gravity="left|top"
+                   android:background="@drawable/note_background"
+                   android:id="@+id/et_input_content"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:id="@+id/btn_save"
+                   android:layout_height="@dimen/text_view_height"
+                   android:text="@string/save_note"/>
+           </LinearLayout>
+       </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

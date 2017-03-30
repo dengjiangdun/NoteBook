@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cdcfd6</color>
+    <color name="colorPrimaryDark">#c0c1c9</color>
+    <color name="colorAccent">#1b100f0f</color>
+    <color name="text_balck">#0e0e0e</color>
+    <color name="reveal_color">#1b000000</color>
+    <color name="background_white">#fff6f6</color>
+    <color name="note_item_background">#ecefede9</color>
+    <color name="input_dialog_color">#ecefede9</color>
+    <color name="input_dialog_background">#ffffffff</color>
+
+    <color name="day_mode_content_background">#ffffffff</color>
+    <color name="night_mode_content_background">#bfffffff</color>
+
+
+
+    <color name="title_bar_night">#6e6868</color>
+    <color name="mian_background_night">#8C8C8C</color>
+
+</resources>
