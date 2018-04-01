@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#cdcfd6</color>
-    <color name="colorPrimaryDark">#c0c1c9</color>
-    <color name="colorAccent">#1b100f0f</color>
+
     <color name="text_balck">#0e0e0e</color>
     <color name="reveal_color">#1b000000</color>
     <color name="background_white">#fff6f6</color>
@@ -18,4 +16,24 @@
     <color name="title_bar_night">#6e6868</color>
     <color name="mian_background_night">#8C8C8C</color>
 
+   <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1b100f0f</color>-->
+    <!--芝麻便笺-->
+    <!--  <color name="colorPrimary">#64d96e</color>
+    <color name="colorPrimaryDark">#3fe286</color>
+    <color name="colorAccent">#1b765858</color>-->
+    <!--旺旺备忘-->
+    <!--<color name="colorPrimary">#4e6350</color>
+    <color name="colorPrimaryDark">#2a2d2b</color>
+    <color name="colorAccent">#1b765858</color>-->
+    <!--随身日记-->
+    <!--<color name="colorPrimary">#66b2b665</color>
+    <color name="colorPrimaryDark">#dbde51</color>
+    <color name="colorAccent">#1b232121</color>-->
+
+    <!--桌面备忘-->
+    <color name="colorPrimary">#6653534e</color>
+    <color name="colorPrimaryDark">#1e2120</color>
+    <color name="colorAccent">#1b232121</color>
 </resources>

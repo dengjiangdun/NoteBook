@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gionee.notebook">
+    package="com.johndon.cmcc.zhuomian">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/note_app_icon"
+        android:icon="@drawable/icon_zhuomian_beiwang"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:persistent="true"
-        android:name=".application.GnNoteBookApplication"
+        android:name="com.johndon.cmcc.zhuomian.application.GnNoteBookApplication"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".acitivity.HomeActivity"
+        <activity android:name="com.johndon.cmcc.zhuomian.acitivity.HomeActivity"
             android:theme="@style/style_day"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -20,9 +20,9 @@
                 <category android:name="android.intent.category.MONKEY"/>
             </intent-filter>
         </activity>
-        <activity android:name=".acitivity.EditNoteActivity"
+        <activity android:name="com.johndon.cmcc.zhuomian.acitivity.EditNoteActivity"
                android:screenOrientation="portrait"/>
-        <receiver android:name="com.example.gionee.notebook.acitivity.NoteWidget"
+        <receiver android:name="com.johndon.cmcc.zhuomian.acitivity.NoteWidget"
             android:label="NoteBook">
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/note_widget_layout" ></meta-data>

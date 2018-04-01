@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">NoteBook</string>
+    <!--<string name="app_name">芝麻便笺</string>-->
+    <!--<string name="app_name">旺旺备忘</string>-->
+    <!--<string name="app_name">随身日记</string>-->
+    <string name="app_name">桌面备忘</string>
     <string name="user_name">Please input username</string>
     <string name="et_user_name">username</string>
     <string name="tv_password">Please input password</string>
@@ -8,24 +11,24 @@
     <string name="login_successfully">Login successfully!</string>
     <string name="user_name_password_empty">username or password is empty!</string>
     <string name="user_name_password_error">username or password is error!</string>
-    <string name="delete_all_note">Delete all</string>
-    <string name="add_note">Add</string>
-    <string name="choose_type">Click choose type</string>
+    <string name="delete_all_note">全部删除</string>
+    <string name="add_note">添加</string>
+    <string name="choose_type">请选择类型</string>
     <string name="save_note">Save</string>
-    <string name="input_can_not_empty">content and type can not empty</string>
-    <string name="sure_to_delete">Sure to delete all notes ?</string>
-    <string name="is_yes">YES</string>
-    <string name="is_no">NO</string>
-    <string name="dialog_title_please_choose">Please choose</string>
-    <string name="is_save_note">Save?</string>
-    <string name="link_content">input content</string>
-    <string name="link_address">input link</string>
-    <string name="inster_content">Insert text here...</string>
+    <string name="input_can_not_empty">内容和类型不能为空</string>
+    <string name="sure_to_delete">确定删除区别记录？</string>
+    <string name="is_yes">确定</string>
+    <string name="is_no">取消</string>
+    <string name="dialog_title_please_choose">请选择</string>
+    <string name="is_save_note">确定保持?</string>
+    <string name="link_content">请输入内容</string>
+    <string name="link_address">请输入链接</string>
+    <string name="inster_content">在这里输入文本内容...</string>
     <string name="default_item_num">0</string>
-    <string name="widget_title">Notes calculate</string>
-    <string name="note_type_meeting">Meeting</string>
-    <string name="note_type_remind">Remind</string>
-    <string name="note_type_memory_day">Memory Day</string>
-    <string name="note_type_schedule">Schedule</string>
+    <string name="widget_title">记事本条数</string>
+    <string name="note_type_meeting">会议</string>
+    <string name="note_type_remind">备忘</string>
+    <string name="note_type_memory_day">纪念日</string>
+    <string name="note_type_schedule">计划</string>
 
 </resources>
